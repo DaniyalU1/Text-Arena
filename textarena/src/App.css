@@ -1,0 +1,80 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.container h1{
+  display: flex;
+  margin: auto;
+  font-size: 24px;
+  font-size: 25px;
+  font-weight: 700;
+  color: rgb(73, 69, 79);
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px;
+  text-align: center;
+  width: 50%;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  background: rgb(77, 73, 73);
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(128, 122, 122);
+  border-image: initial;
+  border-radius: 5px;
+  padding: 10px;
+  white-space: normal !important;
+  background-color: purple;
+  color: white;
+  font-size: 40px;
+}
+*{
+  font-family:sans-serif, Poppins;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+
+}
+.card {
+  background-color: rgb(243, 238, 238);
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 8px;
+}
+.card button[type="submit"] {
+  width: 100%;
+  color: rgb(242, 248, 248);
+  background-color: purple;
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
